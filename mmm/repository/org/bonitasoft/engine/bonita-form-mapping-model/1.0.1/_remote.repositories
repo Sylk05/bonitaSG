@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 12 23:03:47 CET 2026
+bonita-form-mapping-model-1.0.1.pom>=
+bonita-form-mapping-model-1.0.1-sources.jar>central=
+bonita-form-mapping-model-1.0.1.jar>=

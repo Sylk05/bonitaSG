@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 12 23:03:49 CET 2026
+bonita-organization-model-1.0.1.pom>=
+bonita-organization-model-1.0.1.jar>=
+bonita-organization-model-1.0.1-sources.jar>central=
