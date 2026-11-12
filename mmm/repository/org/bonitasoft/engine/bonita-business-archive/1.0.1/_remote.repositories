@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 12 23:03:46 CET 2026
+bonita-business-archive-1.0.1-sources.jar>central=
+bonita-business-archive-1.0.1.jar>=
+bonita-business-archive-1.0.1.pom>=
