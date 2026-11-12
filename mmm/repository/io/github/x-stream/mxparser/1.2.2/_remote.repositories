@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 12 23:13:29 CET 2026
+mxparser-1.2.2.jar>=
+mxparser-1.2.2-sources.jar>central=
+mxparser-1.2.2.pom>=
