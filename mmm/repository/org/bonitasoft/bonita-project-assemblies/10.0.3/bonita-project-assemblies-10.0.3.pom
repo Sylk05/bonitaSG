@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.bonitasoft</groupId>
+  <artifactId>bonita-project-assemblies</artifactId>
+  <version>10.0.3</version>
+  <name>Bonita Project assemblies</name>
+  <description>This module contains Bonita project specific assemblies</description>
+  <url>https://www.bonitasoft.com</url>
+  <licenses>
+    <license>
+      <name>GPL-v2.0</name>
+      <url>http://www.gnu.org/licenses/gpl-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bonitasoft</id>
+      <name>Bonitasoft</name>
+      <email>rd.user@bonitasoft.com</email>
+      <organization>Bonitasoft</organization>
+      <organizationUrl>https://www.bonitasoft.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
+    <connection>scm:git:git@github.com:bonitasoft/bonita-project.git</connection>
+    <developerConnection>scm:git:git@github.com:bonitasoft/bonita-project.git</developerConnection>
+    <url>https://github.com/bonitasoft/bonita-project</url>
+  </scm>
+  <properties>
+    <maven.compiler.release>11</maven.compiler.release>
+    <maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
+  </properties>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${maven-compiler-plugin.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

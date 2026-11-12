@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 12 23:02:57 CET 2026
+org.bonitasoft.bpm.connector.model-8.0.1.pom>=
+org.bonitasoft.bpm.connector.model-8.0.1.jar>=
