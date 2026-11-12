@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 12 23:03:01 CET 2026
+commons-beanutils-1.11.0.jar>=
+commons-beanutils-1.11.0.pom>=
