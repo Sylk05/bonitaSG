@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.bonitasoft.web</groupId>
+  <artifactId>ui-designer-backend-migrationReport</artifactId>
+  <version>1.0.10</version>
+  <name>Bonita UI Designer Migration Report</name>
+  <description>This module is the backend component for the migration report model of the UI Designer.</description>
+  <url>https://www.bonitasoft.com</url>
+  <licenses>
+    <license>
+      <name>GPL-v2.0</name>
+      <url>http://www.gnu.org/licenses/gpl-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bonitasoft</id>
+      <name>Bonitasoft</name>
+      <email>rd.user@bonitasoft.com</email>
+      <organization>Bonitasoft</organization>
+      <organizationUrl>https://www.bonitasoft.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
+    <connection>scm:git:git@github.com:bonitasoft/bonita-ui-designer-artifact-builder.git</connection>
+    <developerConnection>scm:git:git@github.com:bonitasoft/bonita-ui-designer-artifact-builder.git</developerConnection>
+    <url>https://github.com/bonitasoft/bonita-ui-designer-artifact-builder</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>nexus-staging-maven-plugin</artifactId>
+        <version>1.6.13</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>
