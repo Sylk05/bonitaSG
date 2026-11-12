@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 12 23:03:20 CET 2026
+bonita-web-extensions-10.0.7.pom>=
+bonita-web-extensions-10.0.7.jar>=
+bonita-web-extensions-10.0.7-sources.jar>=
