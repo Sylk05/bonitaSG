@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.bonitasoft.engine</groupId>
+  <artifactId>bonita-common</artifactId>
+  <version>10.0.4</version>
+  <name>Bonita Common</name>
+  <description>Bonita Common is the useful layer common to bonita-client and bonita-server</description>
+  <url>https://community.bonitasoft.com/</url>
+  <organization>
+    <name>Bonitasoft S.A.</name>
+    <url>https://community.bonitasoft.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License Version 2.1</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bonita-engine-team</id>
+      <name>The Bonita Engine Development Team</name>
+      <organization>Bonitasoft S.A.</organization>
+      <organizationUrl>http://community.bonitasoft.com/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:http://github.com/bonitasoft/bonita-engine.git</connection>
+    <developerConnection>scm:git:git@github.com:bonitasoft/bonita-engine.git</developerConnection>
+    <url>http://github.com/bonitasoft/bonita-engine</url>
+  </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.fasterxml.jackson</groupId>
+        <artifactId>jackson-bom</artifactId>
+        <version>2.15.3</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.bonitasoft.engine</groupId>
+        <artifactId>bonita-artifacts-model-dependencies</artifactId>
+        <version>1.0.0</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.bonitasoft.engine</groupId>
+      <artifactId>bonita-business-archive</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.engine</groupId>
+      <artifactId>bonita-business-object-model</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.engine</groupId>
+      <artifactId>bonita-profile-model</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.engine</groupId>
+      <artifactId>bonita-organization-model</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.engine</groupId>
+      <artifactId>bonita-application-model</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.36</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.activation</groupId>
+      <artifactId>jakarta.activation</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
